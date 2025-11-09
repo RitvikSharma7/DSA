@@ -10,12 +10,12 @@ We want our algorithm to be efficent as possible to minimize resource usage. We 
   - disk usage
   - network usage
 Peformance and Complexity may seem the same but they differ. Peformance is the amount of resources a program uses to run. This depends on hardware,code,etc. Whereas, complexity is how the resource requirements of a program/algorithm scale.
+The space complexity is related to how much memory the program will use.
 Some routines perform constant operations and others are depedent on the parameter size (e.g. linear search depeneds on size of array). The parameter is called input size.
 For any algorithm, we are typically interested in the worst case time. What is the maximum number of operations that might be performed for a given problem size? We use Big-O Notation to describe this complexity.
 
 Big-O is a mathematical notation describing the limiting behavior of a function when the input size tends to a particular number or infinity (how fast a function grows or declines).
 (It is also called the Bachmann-Landau notation or asymptotic notation)
-
 Mathematical Definition:
 Let f(x) and g(x) be two functions defined on subset of real numbers that map positive integers to postitive real numbers
 f(x) = O(g(x)) for positive constants C, N such that :
