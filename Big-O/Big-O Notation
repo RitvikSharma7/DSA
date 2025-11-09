@@ -1,1 +1,30 @@
+Each algorithm has its own growth rate (time complexity) as the input size varies for each case to test an algorithm. The time taken for an algorithm depends on the number of operations it peforms.
+Examples of some operations:
+  - Arithmetic operations
+  - Comparing two numbers
+  - Calling/Returning from functions
+  - read/write/assignment
+We want our algorithm to be efficent as possible to minimize resource usage. We take into consideration the following factors in determining "efficiency" :
+  - CPU usage (main focus)
+  - memory usage
+  - disk usage
+  - network usage
+Peformance and Complexity may seem the same but they differ. Peformance is the amount of resources a program uses to run. This depends on hardware,code,etc. Whereas, complexity is how the resource requirements of a program/algorithm scale.
+Some routines perform constant operations and others are depedent on the parameter size (e.g. linear search depeneds on size of array). The parameter is called input size.
+For any algorithm, we are typically interested in the worst case time. What is the maximum number of operations that might be performed for a given problem size? We use Big-O Notation to describe this complexity.
+
+Big-O is a mathematical notation describing the limiting behavior of a function when the input size tends to a particular number or infinity (how fast a function grows or declines).
+(It is also called the Bachmann-Landau notation or asymptotic notation)
+
+Mathematical Definition:
+Let f(x) and g(x) be two functions defined on subset of real numbers that map positive integers to postitive real numbers
+f(x) = O(g(x)) for positive constants C, N such that :
+f(x) ≤ C * g(x) for all x ≥ N (basically f(x) does not grow any faster than g(x))
+
+To find the running time of a program/algorithm we count the number of steps/statements
+The total time is found by adding the times for all statements:
+total time = time(statement 1) + time(statement 2) + ... + time(statement k)
+
+
+
 
