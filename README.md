@@ -1,2 +1,4 @@
-# DSA
-Data Structures and Algorithms
+# Data Structures and Algorithms
+## Topics
+- Big-O Notation
+  
